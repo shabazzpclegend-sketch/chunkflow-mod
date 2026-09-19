@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "chunkflow",
+	"version": "${version}",
+	"name": "ChunkFlow",
+	"description": "Streamlines chunk load handling and reduces hostile-entity overhead for smoother, more consistent frame times.",
+	"authors": [
+		"you"
+	],
+	"contact": {},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.chunkflow.mod.ChunkFlowMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"fabric-api": "*",
+		"minecraft": "~1.21.1",
+		"java": ">=21"
+	}
+}
